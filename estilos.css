@@ -5,4 +5,6 @@ body {
 }
 h1 {
     color: aqua;
+    background-color: black;
+    text-align: center;
 }
