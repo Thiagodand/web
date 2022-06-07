@@ -10,13 +10,13 @@ body {
     margin: 0 auto;
 }
 h1 {
-    color: aqua;
+    color: rgb(64, 90, 235);
     text-align: center;
 }
 
 form {
     width: 85vw;
-    color: chartreuse;
+    color: rgb(255, 251, 0);
     background-color: blue;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ form {
 
 
 .enviar:hover {
-     background-color: black;
+     background-color: rgb(255, 0, 0);
      color: khaki;
 }
 
