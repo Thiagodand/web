@@ -1,10 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;400;600&display=swap');
 
+*{
+    box-sizing: border-box;
+}
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
+    width: 90vw;
+    background-color: black;
+    margin: 0 auto;
 }
 h1 {
     color: aqua;
-    background-color: black;
     text-align: center;
+}
+
+form {
+    width: 85vw;
+    color: chartreuse;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+
+}
+
+.enviar {
+    margin-top: 12px;
+}
+
+
+.enviar:hover {
+     background-color: black;
+     color: khaki;
+}
+
+.renglones {
+    margin-bottom: 10px;
 }
